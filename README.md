@@ -61,8 +61,8 @@ This project simulates a basic heater control system using a DS18B20 temperature
 |------------------------|------------------|----------------|-------------------|
 | < 30                   | IDLE             | OFF            | OFF               |
 | 30 - 33.9              | HEATING          | ON             | OFF               |
-| 34 - 34.9              | STABILIZING      | OFF            | OFF               |
-| 35                     | TARGET_REACHED   | OFF            | OFF               |
+| 34 - 35.9              | STABILIZING      | OFF            | OFF               |
+| 36 - 45                | TARGET_REACHED   | OFF            | OFF               |
 | > 45                   | OVERHEAT         | OFF            | ON                |
 
 ---
